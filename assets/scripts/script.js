@@ -1,4 +1,4 @@
-//Variable stores answer for current question
+//Variable stores array value for the current question
 var currentquestion = 0
 
 console.log(currentquestion)
@@ -65,6 +65,7 @@ function check(answer) {
     document.getElementById('checkfalse').classList.add('hidden');
 }
 
+//Manages switching questions, and detects when end of quiz is reached
 function nextQuestion() {
     document.getElementById('questionresponse').classList.add('hidden');
     if (currentquestion < questions.length - 1) {

@@ -1,2 +1,3 @@
-# ProgramDesign_A1
- 
+# Programming for Design One Page Website
+
+For this assignment we were tasked with building a one page website based around a chosen topic. We had to write the site from scratch using HTML, CSS while also implementing JS into the site’s design. My chosen topic was focused around the Is it true COVID-19 website, which is a site that aims to answer some frequently asked questions about the COVID-19 vaccine. My goal for this project was to recreate this site in a more engaging and interesting manner, that challenged the user’s thinking while also informing and providing accurate information. My solution was a simple one page site that aimed to provide quick, simple yet effective information via a true or false quiz. The idea was that this site would be disseminated via QR codes and viewed on a mobile or other portable device.

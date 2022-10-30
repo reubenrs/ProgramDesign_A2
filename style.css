@@ -49,8 +49,8 @@ p {
     height: auto;
 }
 
-@media screen and (max-width: 400px) {
-    .sticky_header a {
+@media screen and (max-width: 600px) {
+    .sticky_header img {
         width: 100%;
     }
 }
@@ -118,7 +118,14 @@ p {
     align-items: center;
     text-align: center;
     width: 50%;
-    margin-top: 3em;
+    margin-top: 20em;
+    margin-bottom: 20em;
+}
+
+@media screen and (max-width: 400px) {
+    .quiz {
+        width: 100%;
+    }
 }
 
 .quizbox {

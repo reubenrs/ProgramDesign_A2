@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>Is it true? COVID-19 Facts</title>
-        <link rel="icon" type="image/x-icon" href="assets/images/main_logo.png">
         <link rel="stylesheet" href="reset.css"/>
         <link rel="stylesheet" href="style.css"/>
+        <script src="assets/scripts/script.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -19,10 +19,20 @@
                 <li><p>We encourage you to rely on reputable sources of information to help you make informed choices and stay up to date on the latest information about COVID-19 vaccines.</p></li>
                 <li><p>This simple quiz will not only make sure you are getting accurate and up to date COVID-19 information, but will also show you how easy it is to spread misinformation.</p></li>
             </ul>
-            <div class="quiz_button">
+            <!-- <div class="quiz_button">
                 <ul>
                     <li><a href="quiz.html">TAKE THE QUIZ</a></li>
                 </ul>
+            </div> -->
+            <div class="quiz">
+                <div id="questioncontainer" class="quizbox">
+                    <span id="questiontext"></span>
+                    <div id="checktrue" class="button"><p>TRUE</p></div>
+                    <div id="checkfalse" class="button"><p>FALSE</p></div>
+                </div>
+                <div id="questionresponse" class="hidden"></div>
+                <div id="nextquestion"><p>Next Question</p></div>
+                <div id="quizreset"><p>Take Quiz Again</p></div>
             </div>
         </div>
     </body>
