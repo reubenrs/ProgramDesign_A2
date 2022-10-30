@@ -1,0 +1,98 @@
+body, html {
+    height: 100%
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.sticky_header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #3765AC;
+    padding: 10px 16px;
+    color: white;
+    position: sticky;
+}
+
+/* .sticky_header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.sticky_header li {
+    list-style: none;
+    width: 35%;
+} */
+
+.sticky_header a {
+    width: 35%;
+    height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .sticky_header a {
+        width: 100%;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3em;
+    color: rgb(51, 51, 51);
+}
+
+.info ul {
+    width: 50%;
+}
+
+.info li {
+    margin-bottom: 3em;
+}
+
+.quiz_button {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+    background-color: #E96D24;
+}
+
+.quiz_button ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz_button li {
+    list-style: none;
+}
+
+.quiz_button li a {
+    text-decoration: none;
+    /* text-align: center; */
+    color: white;
+    font-size: 2em;
+}
